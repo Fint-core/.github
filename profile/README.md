@@ -1,175 +1,53 @@
 FusePay
-The Financial Exchange for Digital Utilities
-Buy • Sell • Trade • Pay • Settle
-Wallet | Escrow | Marketplace
 
-## Problem
-Every day, millions of users and businesses purchase:
-* Mobile Data
-* Airtime
-* Gift Cards
-* Utility Vouchers
-* Digital Subscriptions
+Product Requirements & Technical Architecture
 
-However:
-* Unused plans expire
-* Users cannot resell unused utilities
-* Buyers face scams
-* Vendors lack a trusted exchange platform
-* Payments and settlements are fragmented
+Document version: 1.0
+Product stage: Concept / Pre-development
+Initial market: Nigeria
+Blockchain ecosystem: Stellar
+Smart contract platform: Soroban
+Product category: Fintech, Utility Exchange and Digital Asset Marketplace
 
-Result:
-Billions of Naira worth of digital value becomes inaccessible or wasted.
+Executive Summary
 
-## Market Opportunity
-Target Markets:
-* Telecommunications
-* Digital Commerce
-* Gift Cards
-* Utility Services
-* Cross-border Payments
+FusePay is a fintech utility exchange platform designed to address the wastage of unused telecommunications value while providing users with a unified marketplace for utility trading and digital financial transactions.
 
-Potential Users:
-* Telecom consumers
-* Data resellers
-* Airtime vendors
-* Gift card traders
-* SMEs
-* Digital merchants
+The platform enables individuals and vendors to offer eligible airtime, mobile data and gift cards to other users.
 
-Initial Market:
-Nigeria
+Through peer-to-peer trading, users can purchase available utility products, while individuals with transferable or giftable data plans can offer unused value to other subscribers.
 
-Expansion:
-Africa
+FusePay combines a conventional fintech experience with blockchain-powered financial infrastructure.
 
-Future:
-Global digital utility exchange.
+The platform introduces a hybrid wallet supporting Nigerian Naira (NGN) and selected digital assets, initially USDC and XLM on Stellar.
 
-## Solution
-FusePay is a hybrid fintech and utility exchange platform.
+Its financial architecture includes an internal double-entry ledger, escrow-supported P2P transactions, cryptocurrency exchange functionality, and blockchain settlement.
 
-Users can:
-* Buy Data
-* Sell Data
-* Buy Airtime
-* Sell Airtime
-* Trade Gift Cards
-* Store Funds
-* Transfer Money
-* Use Escrow Protection
+FusePay aims to make digital utility value more accessible, tradable and useful across African markets, beginning with Nigeria.
 
-All from one platform.
-## Product Overview
+Proposed Solution
 
-FusePay consists of four layers:
+FusePay introduces a unified marketplace where individuals and vendors can publish utility offers and trade with other users.
 
-Identity Layer
-* Phone Number
-* User Account
+The platform combines:
 
-Wallet Layer
-* Naira Balance
-* Stablecoin Balance
+1. P2P utility marketplace.
+2. Airtime and data purchasing.
+3. Gift card trading.
+4. Escrow-supported transactions.
+5. Multi-asset digital wallet.
+6. Cryptocurrency and fiat exchange.
+7. Stellar-powered financial settlement.
 
-Escrow Layer
-* Secure Transactions
-* Dispute Resolution
+The initial telecom integration will use supported network data-sharing and gifting mechanisms.
 
-Marketplace Layer
-* Data Marketplace
-* Airtime Marketplace
-* Gift Card Marketplace
+FusePay will support different fulfilment methods depending on the capabilities of each telecommunications provider.
 
+Target Users
 
-##  How It Works
-
-Seller creates listing
-
-↓
-
-Buyer places order
-
-↓
-
-Funds locked in escrow
-
-↓
-
-Seller delivers utility
-
-↓
-
-Buyer confirms
-
-↓
-
-Funds released automatically
-
-Simple
-Secure
-Transparent
-
-
-## Unified Wallet
-
-One Wallet
-One Balance
-One Identity
-
-Features:
-
-* Send
-* Receive
-* Withdraw
-* Convert
-
-
-
-##  Why FusePay Wins
-
-Traditional Fintech:
-✔ Payments
-✘ Utility Exchange
-✘ Escrow Marketplace
-
-Crypto Wallets:
-✔ Assets
-
-✘ Real Utility Commerce
-
-FusePay:
-✔ Wallet
-✔ Marketplace
-✔ Escrow
-✔ Utilities
-✔ Stablecoins
-✔ Local Payments
-
-
-
-
-## Technology
-
-Frontend
-
-* React Native
-* Nextjs (web)
-
-Backend
-
-* Node.js
-* Express
-* MongoDB
-
-Infrastructure
-
-* Redis
-* Cloud Services
-
-Blockchain Layer
-
-* Stellar
-
-Future Support
-* Multi-chain settlement
+- Individual telecom subscribers.
+- Buyers seeking affordable utility products.
+- Individuals selling eligible transferable utility value.
+- Utility vendors and resellers.
+- Gift card traders.
+- Users interested in supported digital asset transactions
